@@ -6,7 +6,7 @@ import java.util.ArrayList;
 
 class MyStackForArrayList<T> implements Stack<T> {
 
-    ArrayList<T> stack = new ArrayList<>();
+    private final ArrayList<T> stack = new ArrayList<>();
 
     @Override
     public void push(T data) {
