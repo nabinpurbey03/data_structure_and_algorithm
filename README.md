@@ -14,4 +14,6 @@
 - [Stack using Array](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/stack/StackUsingArray.java)
 - [Stack using ArrayList](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/stack/StackUsingArray.java)
 - [Stack using Linked list](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/stack/StackUsingLinkedList.java)
+### 3. [Queue](https://github.com/nabinpurbey03/data_structure_and_algorithm/tree/main/src/queue)
+- [Simple queue using array](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/queue/SimpleQueueUsingArray.java)
 
