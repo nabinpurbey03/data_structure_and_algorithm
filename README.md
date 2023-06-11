@@ -23,4 +23,5 @@
 ### 3. [Queue](https://github.com/nabinpurbey03/data_structure_and_algorithm/tree/main/src/queue)
 
 - [Simple queue using array](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/queue/SimpleQueueUsingArray.java)
+- [Simple queue using linked list](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/queue/SimpleQueueUsingLinkedList.java)
 
