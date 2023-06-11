@@ -9,6 +9,7 @@
 - [Count entered digit](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/recursion/DigitCount.java)
 - [Array element](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/recursion/ArrayElement.java)
 - [Greatest common divisor](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/recursion/GCD.java)
+- [Multiplication](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/recursion/Multiplication.java)
 ### 2. [Stack](https://github.com/nabinpurbey03/data_structure_and_algorithm/tree/main/src/stack)
 - [Stack using array](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/stack/StackUsingArray.java)
 - [Stack using ArrayList](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/stack/StackUsingArray.java)
