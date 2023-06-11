@@ -9,6 +9,7 @@
 - [Factorial](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/recursion/Factorial.java)
 - [Fibonacci Series](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/recursion/FibonacciSeries.java)
 - [Greatest common divisor](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/recursion/GCD.java)
+- [Largest element of an array](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/recursion/LargestElement.java)
 - [Multiplication](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/recursion/Multiplication.java)
 - [Natural number series](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/recursion/NaturalNumberSeries.java)
 - [Sum of entered digits](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/recursion/DigitSum.java)
