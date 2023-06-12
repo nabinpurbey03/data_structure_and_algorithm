@@ -6,6 +6,7 @@
 
 - [Array element](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/recursion/ArrayElement.java)
 - [Count entered digit](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/recursion/DigitCount.java)
+- [Decimal to binary](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/recursion/DecimalToBinary.java)
 - [Factorial](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/recursion/Factorial.java)
 - [Fibonacci Series](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/recursion/FibonacciSeries.java)
 - [Greatest common divisor](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/recursion/GCD.java)
