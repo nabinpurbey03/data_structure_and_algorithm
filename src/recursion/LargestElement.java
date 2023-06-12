@@ -1,5 +1,6 @@
 package recursion;
 
+// Write a java program to get the largest element of an array using recursion.
 public class LargestElement {
     static int max(int[] arr) {
         return maxRecursion(arr, 0);
