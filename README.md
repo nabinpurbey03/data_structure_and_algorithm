@@ -3,6 +3,7 @@
 ## Contents
 ### 1. [Linked List](https://github.com/nabinpurbey03/data_structure_and_algorithm/tree/main/src/linked_list)
 - [Singly linked list](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/linked_list/SinglyLinkedListMain.java)
+- [Circularly linked list](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/linked_list/CircularlyLinkedLIstMain.java)
 ### 2. [Recursion](https://github.com/nabinpurbey03/data_structure_and_algorithm/tree/main/src/recursion)
 
 - [Array element](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/recursion/ArrayElement.java)
