@@ -20,12 +20,39 @@ class CircularQueue implements Queue<Integer>{
 
     @Override
     public Integer dequeue() {
-        return null;
+        if(front == -1){
+            return null;
+        }else {
+            int deletedItem = queue[front];
+            queue[front] = 0;
+            front++;
+            if(front == 5){
+                front = 0;
+            }
+            return deletedItem;
+        }
     }
 
     @Override
     public void view() {
+        if(front == -1){
+            System.out.println("Empty queue");
+            return;
+        }
+        if(front < rear){
+            for (int i = front; i <= rear; i++) {
+                System.out.print(queue[i]+" ");
+            }
+        }else if (front>rear){
 
+            for (int i = front; i < QSize; i++) {
+                System.out.print(queue[i]+" ");
+            }
+            for (int i = rear; i < front; i++) {
+                System.out.print(queue[i]+" ");
+            }
+        }
+        System.out.println();
     }
 }
 public class CircularQueueMain {
@@ -34,6 +61,10 @@ public class CircularQueueMain {
         queue.enqueue(8);
         queue.enqueue(10);
         queue.enqueue(12);
+        queue.view();
+        System.out.println(queue.dequeue());
+        System.out.println(queue.dequeue());
+        System.out.println(queue.dequeue());
         queue.view();
 
     }
