@@ -48,7 +48,26 @@ class DoublyLinkedList<T> implements LinkedList<T> {
 
     @Override
     public void insertAt(int index, T data) {
-
+        if(index > size || index<0){
+            System.out.println("Cannot insert data. Please input right index [from 0 to " + size + "].");
+            return;
+        }
+        if(index == 0){
+            insertFirst(data);
+        } else if (index == size) {
+            insertLast(data);
+        }else {
+            DLLNode<T> newNode = new DLLNode<>(data);
+            DLLNode<T> temp = first;
+            for (int i = 1; i < index; i++) {
+                temp = temp.next;
+            }
+            newNode.prev = temp;
+            newNode.next = temp.next;
+            temp.next.prev = newNode;
+            temp.next = newNode;
+            size++;
+        }
     }
 
     @Override
@@ -139,6 +158,8 @@ public class DoublyLinkedListMain {
         DoublyLinkedList<Integer> list = new DoublyLinkedList<>();
         list.insertFirst(80);
         list.insertFirst(80);
+        list.insertFirst(80);
+        list.insertFirst(80);
         list.display();
         list.insertLast(50);
         list.insertLast(50);
@@ -147,5 +168,7 @@ public class DoublyLinkedListMain {
         System.out.println(list.deleteLast());
         list.display();
         list.search(50);
+        list.insertAt(1,20);
+        list.display();
     }
 }
