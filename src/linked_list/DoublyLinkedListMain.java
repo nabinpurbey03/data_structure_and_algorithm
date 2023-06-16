@@ -48,15 +48,15 @@ class DoublyLinkedList<T> implements LinkedList<T> {
 
     @Override
     public void insertAt(int index, T data) {
-        if(index > size || index<0){
+        if (index > size || index < 0) {
             System.out.println("Cannot insert data. Please input right index [from 0 to " + size + "].");
             return;
         }
-        if(index == 0){
+        if (index == 0) {
             insertFirst(data);
         } else if (index == size) {
             insertLast(data);
-        }else {
+        } else {
             DLLNode<T> newNode = new DLLNode<>(data);
             DLLNode<T> temp = first;
             for (int i = 1; i < index; i++) {
@@ -130,7 +130,25 @@ class DoublyLinkedList<T> implements LinkedList<T> {
 
     @Override
     public T deleteAt(int index) {
-        return null;
+        if(index<0 || index>size-1){
+            System.out.println("Cannot delete data. Please input right index [from 0 to " + (size - 1) + "].");
+            return null;
+        }
+        if (index == 0){
+            return deleteFirst();
+        } else if (index == size-1) {
+            return deleteLast();
+        }else {
+            DLLNode<T> temp = first;
+            for (int i = 1; i <= index; i++) {
+                temp = temp.next;
+            }
+            T deletedItem = temp.info;
+            temp.prev.next = temp.next;
+            temp.next.prev = temp.prev;
+            size--;
+            return deletedItem;
+        }
     }
 
     @Override
@@ -157,18 +175,18 @@ public class DoublyLinkedListMain {
     public static void main(String[] args) {
         DoublyLinkedList<Integer> list = new DoublyLinkedList<>();
         list.insertFirst(80);
-        list.insertFirst(80);
-        list.insertFirst(80);
-        list.insertFirst(80);
+        list.insertFirst(90);
         list.display();
         list.insertLast(50);
-        list.insertLast(50);
+        list.insertLast(60);
         list.display();
         System.out.println(list.deleteFirst());
         System.out.println(list.deleteLast());
         list.display();
         list.search(50);
-        list.insertAt(1,20);
+        list.insertAt(1, 20);
+        list.insertAt(2, 30);
         list.display();
+        System.out.println(list.deleteAt(2));
     }
 }
