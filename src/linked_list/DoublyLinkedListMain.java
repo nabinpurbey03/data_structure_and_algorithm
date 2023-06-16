@@ -130,15 +130,15 @@ class DoublyLinkedList<T> implements LinkedList<T> {
 
     @Override
     public T deleteAt(int index) {
-        if(index<0 || index>size-1){
+        if (index < 0 || index > size - 1) {
             System.out.println("Cannot delete data. Please input right index [from 0 to " + (size - 1) + "].");
             return null;
         }
-        if (index == 0){
+        if (index == 0) {
             return deleteFirst();
-        } else if (index == size-1) {
+        } else if (index == size - 1) {
             return deleteLast();
-        }else {
+        } else {
             DLLNode<T> temp = first;
             for (int i = 1; i <= index; i++) {
                 temp = temp.next;
