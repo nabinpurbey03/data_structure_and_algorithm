@@ -2,8 +2,8 @@ package queue;
 import queue.QueueInterface.Queue;
 
 class CircularQueue implements Queue<Integer>{
-    private int QSize = 5;
-    private int[] queue = new int[QSize];
+    private final int QSize = 5;
+    private final int[] queue = new int[QSize];
     private int front =-1, rear = -1;
     @Override
     public void enqueue(Integer data) {
