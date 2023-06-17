@@ -25,7 +25,26 @@ class PriorityQueue implements Queue<Integer> {
 
     @Override
     public Integer dequeue() {
-        return null;
+        if(front == -1){
+//            System.out.println("Empty underflow");
+            return null;
+        }else {
+            for (int i = front; i <= rear; i++) {
+                for (int j = i+1; j <= rear ; j++) {
+                    if(queue[j]>queue[i]){
+                        int temp = queue[j];
+                        queue[j] = queue[i];
+                        queue[i] = temp;
+                    }
+                }
+            }
+            int deletedItem = queue[front];
+            for (int i = front; i <= rear; i++) {
+                queue[i] = queue[i+1];
+            }
+            rear--;
+            return deletedItem;
+        }
     }
 
     @Override
@@ -55,7 +74,14 @@ public class PriorityQueueMain {
         PriorityQueue queue = new PriorityQueue();
         queue.enqueue(8);
         queue.enqueue(10);
-        queue.enqueue(12);
         queue.view();
+        queue.enqueue(12);
+        queue.enqueue(50);
+        queue.view();
+        System.out.println(queue.dequeue());
+        queue.view();
+        queue.enqueue(50);
+        queue.view();
+        System.out.println(queue.dequeue());
     }
 }
