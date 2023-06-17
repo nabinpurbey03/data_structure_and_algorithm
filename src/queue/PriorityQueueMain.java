@@ -17,13 +17,10 @@ class PriorityQueue implements Queue<Integer> {
             return;
         }
         if (front == -1) {
-            front++;
-            rear++;
-            queue[rear] = data;
-        } else {
-            queue[front] = data;
-            rear++;
+            front = 0;
         }
+        rear++;
+        queue[rear] = data;
     }
 
     @Override
@@ -33,7 +30,15 @@ class PriorityQueue implements Queue<Integer> {
 
     @Override
     public void view() {
-
+        if (front == -1) {
+            System.out.println("Empty queue");
+            return;
+        }
+//        int max = queue[front];
+        for (int i = front; i <= rear; i++) {
+            System.out.print(queue[i] + " ");
+        }
+        System.out.println();
     }
 }
 
@@ -47,6 +52,10 @@ public class PriorityQueueMain {
      * @param args the input arguments
      */
     public static void main(String[] args) {
-
+        PriorityQueue queue = new PriorityQueue();
+        queue.enqueue(8);
+        queue.enqueue(10);
+        queue.enqueue(12);
+        queue.view();
     }
 }
