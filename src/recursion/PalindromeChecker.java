@@ -1,6 +1,15 @@
 package recursion;
 
+/**
+ * The type Palindrome checker.
+ */
 public class PalindromeChecker {
+    /**
+     * Is palindrome boolean.
+     *
+     * @param str the input String
+     * @return the boolean
+     */
     static boolean isPalindrome(String str) {
         if (str.length() <= 1) {
             return true;
@@ -16,6 +25,11 @@ public class PalindromeChecker {
         }
     }
 
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
         System.out.println(isPalindrome("racecar"));
     }
