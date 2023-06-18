@@ -18,6 +18,7 @@
 - [Natural number series](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/recursion/NaturalNumberSeries.java)
 - [Odd even series](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/recursion/OddEven.java)
 - [Palindrome checker](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/recursion/PalindromeChecker.java)
+- [Power calculation](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/recursion/PowerCalculation.java)
 - [Prime number check](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/recursion/PrimeNumberCheck.java)
 - [String reverse](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/recursion/StringReverse.java)
 - [Sum of entered digits](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/recursion/DigitSum.java)
