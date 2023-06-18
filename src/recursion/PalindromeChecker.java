@@ -1,5 +1,5 @@
 package recursion;
-
+//Write a java program to check whether a given string is a palindrome or not using recursion
 /**
  * The type Palindrome checker.
  */
