@@ -1,5 +1,7 @@
 package recursion;
 
+//Write a java program to find the first capital letter in a string using recursion.
+
 /**
  * The type First capital letter.
  */
