@@ -1,6 +1,13 @@
 package recursion;
 
+/**
+ * The type First capital letter.
+ */
 public class FirstCapitalLetter {
+    /**
+     * First capital.
+     * @param str the input String
+     */
     static void firstCapital(String str){
         if(str.length()==1){
             char ch = str.charAt(0);
@@ -19,6 +26,11 @@ public class FirstCapitalLetter {
             firstCapital(sub);
         }
     }
+
+    /**
+     * The entry point of application.
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
         firstCapital("naBin");
     }
