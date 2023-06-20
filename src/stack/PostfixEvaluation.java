@@ -19,15 +19,15 @@ public class PostfixEvaluation {
             if (sc.hasNextInt()) {
                 operandStack.push(sc.nextInt());
             } else {
-                int operator2 = operandStack.pop();
-                int operator1 = operandStack.pop();
+                int operand2 = operandStack.pop();
+                int operand1 = operandStack.pop();
                 String operator = sc.next();
                 switch (operator) {
-                    case "+" -> operandStack.push(operator1 + operator2);
-                    case "-" -> operandStack.push(operator1 - operator2);
-                    case "*" -> operandStack.push(operator1 * operator2);
-                    case "/" -> operandStack.push(operator1 / operator2);
-                    case "$" -> operandStack.push((int) Math.pow(operator1, operator2));
+                    case "+" -> operandStack.push(operand1 + operand2);
+                    case "-" -> operandStack.push(operand1 - operand2);
+                    case "*" -> operandStack.push(operand1 * operand2);
+                    case "/" -> operandStack.push(operand1 / operand2);
+                    case "$" -> operandStack.push((int) Math.pow(operand1, operand2));
                 }
             }
         }
