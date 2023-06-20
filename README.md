@@ -31,7 +31,8 @@
 - [Stack using Array](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/stack/StackUsingArray.java)
 - [Stack using ArrayList](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/stack/StackUsingArray.java)
 - [Stack using Linked list](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/stack/StackUsingLinkedList.java)
-- [Prefix evaluation](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/stack/PostfixEvaluation.java)
+- [Postfix evaluation](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/stack/PostfixEvaluation.java)
+- [Prefix evaluation](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/stack/PrefixEvaluation.java)
 
 ### 4. [Queue](https://github.com/nabinpurbey03/data_structure_and_algorithm/tree/main/src/queue)
 
