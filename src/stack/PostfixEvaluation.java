@@ -3,7 +3,14 @@ package stack;
 import java.util.Stack;
 import java.util.*;
 
+/**
+ * The type Postfix evaluation.
+ */
 public class PostfixEvaluation {
+    /**
+     * The entry point of application.
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
         String expression = "6 2 3 + - 3 8 2 / + * 2 $ 3 +";
         Scanner sc = new Scanner(expression);
@@ -16,9 +23,9 @@ public class PostfixEvaluation {
                 int operator1 = operandStack.pop();
                 String operator = sc.next();
                 switch (operator) {
-                    case "+" -> operandStack.push(operator2 + operator1);
+                    case "+" -> operandStack.push(operator1 + operator2);
                     case "-" -> operandStack.push(operator1 - operator2);
-                    case "*" -> operandStack.push(operator2 * operator1);
+                    case "*" -> operandStack.push(operator1 * operator2);
                     case "/" -> operandStack.push(operator1 / operator2);
                     case "$" -> operandStack.push((int) Math.pow(operator1, operator2));
                 }
