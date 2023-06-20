@@ -1,7 +1,16 @@
 package stack;
 import java.util.Stack;
 import java.util.*;
+
+/**
+ * The type Prefix evaluation.
+ */
 public class PrefixEvaluation {
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
         String expression = "* 2 3";
         StringBuilder toRev = new StringBuilder(expression);
