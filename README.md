@@ -33,8 +33,10 @@
 - [Stack using Linked list](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/stack/StackUsingLinkedList.java)
 - [Postfix evaluation](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/stack/PostfixEvaluation.java)
 - [Prefix evaluation](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/stack/PrefixEvaluation.java)
+### 4. [Tree](https://github.com/nabinpurbey03/data_structure_and_algorithm/tree/main/src/tree)
+- [Binary search tree](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/tree/BinarySearchTreeMain.java)
 
-### 4. [Queue](https://github.com/nabinpurbey03/data_structure_and_algorithm/tree/main/src/queue)
+### 5. [Queue](https://github.com/nabinpurbey03/data_structure_and_algorithm/tree/main/src/queue)
 
 - [Simple queue using array](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/queue/SimpleQueueUsingArray.java)
 - [Simple queue using linked list](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/queue/SimpleQueueUsingLinkedList.java)
