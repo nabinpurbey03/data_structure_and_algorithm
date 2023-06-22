@@ -40,6 +40,17 @@ class BinarySearchTree {
     public void preorderTraverse() {
         preorderTraverse(root);
     }
+    private void postorderTraverse(BSTNode root){
+        if(root == null){
+            return;
+        }
+        preorderTraverse(root.right);
+        preorderTraverse(root.left);
+        System.out.print(root.info+" ");
+    }
+    public void postorderTraverse(){
+        postorderTraverse(root);
+    }
 
 }
 
@@ -50,5 +61,7 @@ public class BinarySearchTreeMain {
         tree.insert(12);
         tree.insert(8);
         tree.preorderTraverse();
+        System.out.println();
+        tree.postorderTraverse();
     }
 }
