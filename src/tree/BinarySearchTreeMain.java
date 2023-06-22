@@ -40,15 +40,17 @@ class BinarySearchTree {
     public void preorderTraverse() {
         preorderTraverse(root);
     }
-    private void postorderTraverse(BSTNode root){
-        if(root == null){
+
+    private void postorderTraverse(BSTNode root) {
+        if (root == null) {
             return;
         }
         preorderTraverse(root.right);
         preorderTraverse(root.left);
-        System.out.print(root.info+" ");
+        System.out.print(root.info + " ");
     }
-    public void postorderTraverse(){
+
+    public void postorderTraverse() {
         postorderTraverse(root);
     }
 
