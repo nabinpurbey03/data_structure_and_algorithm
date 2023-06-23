@@ -54,6 +54,19 @@ class BinarySearchTree {
         postorderTraverse(root);
     }
 
+    private void inorderTraverse(BSTNode root) {
+        if (root == null) {
+            return;
+        }
+        preorderTraverse(root.right);
+        System.out.print(root.info + " ");
+        preorderTraverse(root.left);
+    }
+
+    public void inorderTraverse() {
+        inorderTraverse(root);
+    }
+
 }
 
 public class BinarySearchTreeMain {
@@ -65,5 +78,7 @@ public class BinarySearchTreeMain {
         tree.preorderTraverse();
         System.out.println();
         tree.postorderTraverse();
+        System.out.println();
+        tree.inorderTraverse();
     }
 }
