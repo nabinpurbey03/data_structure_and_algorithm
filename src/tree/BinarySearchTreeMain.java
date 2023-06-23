@@ -1,15 +1,35 @@
 package tree;
 
+/**
+ * The type Bst node.
+ */
 class BSTNode {
+    /**
+     * The Info.
+     */
     int info;
 
+    /**
+     * Instantiates a new Bst node.
+     *
+     * @param info the info
+     */
     public BSTNode(int info) {
         this.info = info;
     }
 
-    BSTNode left, right;
+    /**
+     * The Left.
+     */
+    BSTNode left, /**
+     * The Right.
+     */
+    right;
 }
 
+/**
+ * The type Binary search tree.
+ */
 class BinarySearchTree {
     private BSTNode root;
 
@@ -24,6 +44,11 @@ class BinarySearchTree {
         return node;
     }
 
+    /**
+     * Insert.
+     *
+     * @param data the data
+     */
     public void insert(int data) {
         root = insert(root, data);
     }
@@ -37,6 +62,9 @@ class BinarySearchTree {
         preorderTraverse(root.right);
     }
 
+    /**
+     * Preorder traverse.
+     */
     public void preorderTraverse() {
         preorderTraverse(root);
     }
@@ -50,6 +78,9 @@ class BinarySearchTree {
         System.out.print(root.info + " ");
     }
 
+    /**
+     * Postorder traverse.
+     */
     public void postorderTraverse() {
         postorderTraverse(root);
     }
@@ -63,6 +94,9 @@ class BinarySearchTree {
         preorderTraverse(root.right);
     }
 
+    /**
+     * Inorder traverse.
+     */
     public void inorderTraverse() {
         inorderTraverse(root);
         System.out.println(root.info);
@@ -80,6 +114,12 @@ class BinarySearchTree {
         }
     }
 
+    /**
+     * Search boolean.
+     *
+     * @param data the data
+     * @return the boolean
+     */
     public boolean search(int data) {
         root = search(root, data);
         if (data == root.info) {
@@ -91,7 +131,15 @@ class BinarySearchTree {
 
 }
 
+/**
+ * The type Binary search tree main.
+ */
 public class BinarySearchTreeMain {
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
         BinarySearchTree tree = new BinarySearchTree();
         tree.insert(10);
