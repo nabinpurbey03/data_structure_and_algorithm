@@ -67,6 +67,21 @@ class BinarySearchTree {
         inorderTraverse(root);
     }
 
+    private BSTNode search(BSTNode root, int key) {
+        if (root == null) {
+            return null;
+        } else if (key == root.info) {
+            return root;
+        } else if (key < root.info) {
+            return search(root.left, key);
+        } else {
+            return search(root.right, key);
+        }
+    }
+    public void search(int data){
+        System.out.println(search(root, data));
+    }
+
 }
 
 public class BinarySearchTreeMain {
@@ -80,5 +95,7 @@ public class BinarySearchTreeMain {
         tree.postorderTraverse();
         System.out.println();
         tree.inorderTraverse();
+        System.out.println();
+        tree.search(8);
     }
 }
