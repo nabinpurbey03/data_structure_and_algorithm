@@ -58,13 +58,14 @@ class BinarySearchTree {
         if (root == null) {
             return;
         }
-        preorderTraverse(root.right);
-        System.out.print(root.info + " ");
         preorderTraverse(root.left);
+        System.out.print(root.info + " ");
+        preorderTraverse(root.right);
     }
 
     public void inorderTraverse() {
         inorderTraverse(root);
+        System.out.println(root.info);
     }
 
     private BSTNode search(BSTNode root, int key) {
@@ -78,8 +79,14 @@ class BinarySearchTree {
             return search(root.right, key);
         }
     }
-    public void search(int data){
-        System.out.println(search(root, data));
+
+    public boolean search(int data) {
+        root = search(root, data);
+        if (data == root.info) {
+            return true;
+        } else {
+            return false;
+        }
     }
 
 }
@@ -96,6 +103,6 @@ public class BinarySearchTreeMain {
         System.out.println();
         tree.inorderTraverse();
         System.out.println();
-        tree.search(8);
+        System.out.println(tree.search(12));
     }
 }
