@@ -1,7 +1,5 @@
 package tree;
 
-import java.util.PrimitiveIterator;
-
 class BSTNode {
     int info;
 
