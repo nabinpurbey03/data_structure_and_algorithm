@@ -8,7 +8,7 @@ class BSTNode {
     }
 
     BSTNode left,
-    right;
+            right;
 }
 
 class BinarySearchTree {
@@ -84,22 +84,22 @@ class BinarySearchTree {
         return search(root, data);
     }
 
-    private BSTNode delete(BSTNode node, int data){
-        if(data <node.info){
+    private BSTNode delete(BSTNode node, int data) {
+        if (data < node.info) {
             node.left = delete(node.left, data);
-        } else if (data>node.info) {
+        } else if (data > node.info) {
             node.right = delete(node.right, data);
-        }else {
+        } else {
 
             //case-1
-            if(node.left == null && node.right == null){
+            if (node.left == null && node.right == null) {
                 return null;
             }
 
             //case-2
             if (node.left == null) {
                 return node.right;
-            }else if (node.right == null){
+            } else if (node.right == null) {
                 return node.left;
             }
 
@@ -110,11 +110,13 @@ class BinarySearchTree {
         }
         return node;
     }
-    public void delete(int data){
+
+    public void delete(int data) {
         root = delete(root, data);
     }
-    private BSTNode inorderSuccessor(BSTNode node){
-        while (node.left != node){
+
+    private BSTNode inorderSuccessor(BSTNode node) {
+        while (node.left != node) {
             node = node.left;
         }
         return node;
@@ -125,9 +127,10 @@ class BinarySearchTree {
 public class BinarySearchTreeMain {
     public static void main(String[] args) {
         BinarySearchTree tree = new BinarySearchTree();
-        tree.insert(10);
-        tree.insert(12);
-        tree.insert(8);
+        int[] data = {5, 4, 12, 10, 3, 1, 8, 9, 2};
+        for (int m : data) {
+            tree.insert(m);
+        }
         tree.preorderTraverse();
         System.out.println();
         tree.postorderTraverse();
