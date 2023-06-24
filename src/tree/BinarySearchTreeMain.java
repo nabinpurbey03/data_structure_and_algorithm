@@ -1,5 +1,7 @@
 package tree;
 
+import java.util.PrimitiveIterator;
+
 class BSTNode {
     int info;
 
@@ -82,6 +84,39 @@ class BinarySearchTree {
 
     public boolean search(int data) {
         return search(root, data);
+    }
+
+    private BSTNode delete(BSTNode node, int data){
+        if(data <node.info){
+            node.left = delete(node.left, data);
+        } else if (data>node.info) {
+            node.right = delete(node.right, data);
+        }else {
+
+            //case-1
+            if(node.left == null && node.right == null){
+                return null;
+            }
+
+            //case-2
+            if (node.left == null) {
+                return node.right;
+            }else if (node.right == null){
+                return node.left;
+            }
+
+            //case-3
+            BSTNode IS = inorderSuccessor(node.right);
+            node.info = IS.info;
+            node.right = delete(node.right, IS.info);
+        }
+        return node;
+    }
+    private BSTNode inorderSuccessor(BSTNode node){
+        while (node.left != node){
+            node = node.left;
+        }
+        return node;
     }
 
 }
