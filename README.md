@@ -35,7 +35,7 @@
 - [Prefix evaluation](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/stack/PrefixEvaluation.java)
 ### 4. [Tree](https://github.com/nabinpurbey03/data_structure_and_algorithm/tree/main/src/tree)
   - [Binary search tree](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/tree/BinarySearchTreeMain.java)<br/>
-&nbsp;Contents <br/>
+&nbsp;**Contents** <br/>
     &nbsp; &nbsp; 1. Insertion<br/>
     &nbsp; &nbsp; 2. Deletion<br/>
     &nbsp; &nbsp; 3. Searching<br/>
