@@ -39,9 +39,9 @@
     &nbsp; &nbsp; a. Insertion<br/>
     &nbsp; &nbsp; b. Deletion<br/>
     &nbsp; &nbsp; c. Searching<br/>
-    &nbsp; &nbsp; e. Inorder Traverse<br/>
-    &nbsp; &nbsp; f. Preorder Traverse<br/>
-    &nbsp; &nbsp; g. Postorder Traverse<br/>
+    &nbsp; &nbsp; d. Inorder Traverse<br/>
+    &nbsp; &nbsp; e. Preorder Traverse<br/>
+    &nbsp; &nbsp; f. Postorder Traverse<br/>
 
 ### 5. [Queue](https://github.com/nabinpurbey03/data_structure_and_algorithm/tree/main/src/queue)
 
