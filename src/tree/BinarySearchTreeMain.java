@@ -112,6 +112,9 @@ class BinarySearchTree {
         }
         return node;
     }
+    public void delete(int data){
+        root = delete(root, data);
+    }
     private BSTNode inorderSuccessor(BSTNode node){
         while (node.left != node){
             node = node.left;
@@ -134,5 +137,7 @@ public class BinarySearchTreeMain {
         tree.inorderTraverse();
         System.out.println();
         System.out.println(tree.search(2));
+        tree.delete(12);
+        tree.inorderTraverse();
     }
 }
