@@ -66,7 +66,6 @@ class BinarySearchTree {
 
     public void inorderTraverse() {
         inorderTraverse(root);
-        System.out.println(root.info);
     }
 
     private boolean search(BSTNode root, int key) {
@@ -97,7 +96,7 @@ public class BinarySearchTreeMain {
         System.out.println();
         tree.postorderTraverse();
         System.out.println();
-//        tree.inorderTraverse();
+        tree.inorderTraverse();
         System.out.println();
         System.out.println(tree.search(2));
     }
