@@ -7,8 +7,7 @@ class BSTNode {
         this.info = info;
     }
 
-    BSTNode left,
-            right;
+    BSTNode left, right;
 }
 
 class BinarySearchTree {
