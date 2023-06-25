@@ -42,6 +42,8 @@
     &nbsp; &nbsp; d. Inorder Traverse<br/>
     &nbsp; &nbsp; e. Preorder Traverse<br/>
     &nbsp; &nbsp; f. Postorder Traverse<br/>
+    &nbsp; &nbsp; g. Find maximum<br/>
+    &nbsp; &nbsp; h. Find minimum<br/>
 
 ### 5. [Queue](https://github.com/nabinpurbey03/data_structure_and_algorithm/tree/main/src/queue)
 
