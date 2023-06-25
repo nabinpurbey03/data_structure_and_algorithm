@@ -120,18 +120,31 @@ class BinarySearchTree {
         }
         return node;
     }
-    private int max(BSTNode root){
+    private BSTNode max(BSTNode root){
         if(root == null){
-            return 0;
+            return null;
         }else {
             while (root.right != null){
                 root = root.right;
             }
-            return root.info;
+            return root;
         }
     }
     public int max(){
-        return max(root);
+        return max(root).info;
+    }
+    private BSTNode min(BSTNode root){
+        if(root == null){
+            return null;
+        }else {
+            while (root.left != null){
+                root = root.left;
+            }
+            return root;
+        }
+    }
+    public int min(){
+        return min(root).info;
     }
 
 }
@@ -154,5 +167,6 @@ public class BinarySearchTreeMain {
         tree.inorderTraverse();
         System.out.println();
         System.out.println(tree.max());
+        System.out.println(tree.min());
     }
 }
