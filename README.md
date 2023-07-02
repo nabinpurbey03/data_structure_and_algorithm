@@ -25,6 +25,7 @@
 - [String reverse](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/recursion/StringReverse.java)
 - [Sum of entered digits](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/recursion/DigitSum.java)
 - [Sum of natural numbers](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/recursion/SumOfNumbers.java)
+- [Tower of Hanoi](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/recursion/TowerOfHanoi.java)
 
 ### 3. [Stack](https://github.com/nabinpurbey03/data_structure_and_algorithm/tree/main/src/stack)
 
