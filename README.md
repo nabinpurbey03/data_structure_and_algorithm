@@ -52,5 +52,6 @@
 - [Simple queue using linked list](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/queue/SimpleQueueUsingLinkedList.java)
 - [Circular queue](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/queue/CircularQueueMain.java)
 - [Priority queue](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/queue/PriorityQueueMain.java)
-### 6. [Sorting Algorithm]()
+
+### 6. [Queue](https://github.com/nabinpurbey03/data_structure_and_algorithm/tree/main/src/sorting)
 
