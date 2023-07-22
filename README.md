@@ -54,4 +54,5 @@
 - [Priority queue](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/queue/PriorityQueueMain.java)
 
 ### 6. [Queue](https://github.com/nabinpurbey03/data_structure_and_algorithm/tree/main/src/sorting)
+- [Selection sort](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/sorting/SelectionSort.java)
 
