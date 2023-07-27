@@ -27,14 +27,19 @@
 - [Sum of natural numbers](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/recursion/SumOfNumbers.java)
 - [Tower of Hanoi](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/recursion/TowerOfHanoi.java)
 
-### 3. [Stack](https://github.com/nabinpurbey03/data_structure_and_algorithm/tree/main/src/stack)
+### 3. [Sorting](https://github.com/nabinpurbey03/data_structure_and_algorithm/tree/main/src/sorting)
+
+- [Selection sort](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/sorting/SelectionSort.java)
+
+### 4. [Stack](https://github.com/nabinpurbey03/data_structure_and_algorithm/tree/main/src/stack)
 
 - [Stack using Array](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/stack/StackUsingArray.java)
 - [Stack using ArrayList](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/stack/StackUsingArray.java)
 - [Stack using Linked list](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/stack/StackUsingLinkedList.java)
 - [Postfix evaluation](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/stack/PostfixEvaluation.java)
 - [Prefix evaluation](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/stack/PrefixEvaluation.java)
-### 4. [Tree](https://github.com/nabinpurbey03/data_structure_and_algorithm/tree/main/src/tree)
+- [Balanced Brackets Check](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/stack/ValidBrackets.java)
+### 5. [Tree](https://github.com/nabinpurbey03/data_structure_and_algorithm/tree/main/src/tree)
   - [Binary search tree](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/tree/BinarySearchTreeMain.java)<br/>
 &nbsp;**Contents** <br/>
     &nbsp; &nbsp; a. Insertion<br/>
@@ -46,13 +51,11 @@
     &nbsp; &nbsp; g. Find maximum<br/>
     &nbsp; &nbsp; h. Find minimum<br/>
 
-### 5. [Queue](https://github.com/nabinpurbey03/data_structure_and_algorithm/tree/main/src/queue)
+### 6. [Queue](https://github.com/nabinpurbey03/data_structure_and_algorithm/tree/main/src/queue)
 
 - [Simple queue using array](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/queue/SimpleQueueUsingArray.java)
 - [Simple queue using linked list](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/queue/SimpleQueueUsingLinkedList.java)
 - [Circular queue](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/queue/CircularQueueMain.java)
 - [Priority queue](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/queue/PriorityQueueMain.java)
 
-### 6. [Sorting](https://github.com/nabinpurbey03/data_structure_and_algorithm/tree/main/src/sorting)
-- [Selection sort](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/sorting/SelectionSort.java)
 
