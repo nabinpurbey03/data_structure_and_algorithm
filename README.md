@@ -30,6 +30,7 @@
 ### 3. [Sorting](https://github.com/nabinpurbey03/data_structure_and_algorithm/tree/main/src/sorting)
 
 - [Selection sort](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/sorting/SelectionSort.java)
+- [Bubble sort](https://github.com/nabinpurbey03/data_structure_and_algorithm/blob/main/src/sorting/BubbleSort.java)
 
 ### 4. [Stack](https://github.com/nabinpurbey03/data_structure_and_algorithm/tree/main/src/stack)
 
