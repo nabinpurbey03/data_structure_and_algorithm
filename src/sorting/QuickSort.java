@@ -8,12 +8,15 @@ public class QuickSort {
         int pivot = a[low];
         int i = low, j = high;
         while (i < j) {
+
             do {
                 i++;
             } while (a[i] < pivot);
+
             do {
                 j--;
             } while (a[j] > pivot);
+
             if (i < j)
                 swap(a, i, j);
         }
