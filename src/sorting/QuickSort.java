@@ -1,11 +1,12 @@
 package sorting;
 
 import java.util.Arrays;
+import java.util.Random;
 
 public class QuickSort {
-    static int partition(int[] a, int l, int h){
-        int pivot = a[l];
-        int i=l, j=h;
+    static int partition(int[] a, int low, int high){
+        int pivot = a[low];
+        int i=low, j=high;
         while (i<j){
             do {
                 i++;
@@ -19,18 +20,18 @@ public class QuickSort {
                 a[j] = temp;
             }
         }
-        int temp = a[l];
-        a[l] = a[j];
+        int temp = a[low];
+        a[low] = a[j];
         a[j] = temp;
 
         return j;
     }
 
-    static int[] quicksort(int[] a, int l, int h) {
-        if (l < h) {
-            int j = partition(a, l, h);
-            quicksort(a, l, j);
-            quicksort(a, j + 1, h);
+    static int[] quicksort(int[] a, int low, int high) {
+        if (low < high) {
+            int j = partition(a, low, high);
+            quicksort(a, low, j);
+            quicksort(a, j + 1, high);
         }
         return a;
     }
@@ -50,7 +51,13 @@ public class QuickSort {
         return c;
     }
     public static void main(String[] args) {
-        int[] a = {99,88,77,55,11,22,33,66,44,55};
+        Random ran = new Random();
+        int[] a = new int[100];
+        for (int i = 0; i < a.length; i++) {
+            a[i] = ran.nextInt(100);
+        }
+        System.out.println();
+//        int[] a = {99,88,77,55,11,22,33,66,44,55};
         System.out.println(Arrays.toString(quicksort(a)));
     }
 }
