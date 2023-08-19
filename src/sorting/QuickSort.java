@@ -29,9 +29,9 @@ public class QuickSort {
 
     static int[] quicksort(int[] a, int low, int high) {
         if (low < high) {
-            int j = partition(a, low, high);
-            quicksort(a, low, j);
-            quicksort(a, j + 1, high);
+            int partitionIndex = partition(a, low, high);
+            quicksort(a, low, partitionIndex);
+            quicksort(a, partitionIndex + 1, high);
         }
         return a;
     }
